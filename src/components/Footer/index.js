@@ -32,7 +32,7 @@ const Footer = () => {
                 <Image
                   src={profileImg}
                   alt="Hds logo"
-                  className="w-full h-auto"
+                  className="w-full h-auto px-3 md:px-0"
                   priority
                 />
               </h6>
@@ -71,18 +71,34 @@ const Footer = () => {
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Contact
               </h6>
-              <p className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start">
+              <p
+                href={siteMetadata.location}
+                target="_blank"
+                className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start"
+              >
                 <IoLocation size={20} />
                 Along DAYA road, EMBU TOWN.
               </p>
-              <p className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start">
+              <p
+                href={siteMetadata.email}
+                target="_blank"
+                className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start"
+              >
                 <MdEmail size={20} />
-                info@example.com
+                contact@husseindrivingschool.com
               </p>
-              <p className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start">
+              <p
+                href={`tel:${siteMetadata.phone}`}
+                target="_blank"
+                className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start"
+              >
                 <IoCall size={20} />+ 01 234 567 88
               </p>
-              <p className="flex gap-3 cursor-pointer items-center justify-center md:justify-start">
+              <p
+                href={siteMetadata.whatsapp}
+                target="_blank"
+                className="flex gap-3 cursor-pointer items-center justify-center md:justify-start"
+              >
                 <IoLogoWhatsapp size={20} />+ 01 234 567 89
               </p>
             </div>
