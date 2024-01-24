@@ -1,17 +1,23 @@
-"use client"
-import React from 'react';
-import { DotLottiePlayer } from '@dotlottie/react-player';
-import '@dotlottie/react-player/dist/index.css';
+"use client";
+
+import React from "react";
+import Lottie from "lottie-react"; // Import the Lottie library
+import animationData from "@/public/car-contact.json";
 
 const LottieAnimation = () => {
   return (
-      <DotLottiePlayer
-        src="/animation_llqd7ey4.lottie"
-        autoplay
-        loop
-      >
-       
-      </DotLottiePlayer>
+    <Lottie
+      animationData={animationData}
+      loop
+      autoplay
+      speed={0.333}
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100%",
+        zIndex: -1,
+      }}
+    />
   );
 };
 
