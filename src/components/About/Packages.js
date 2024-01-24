@@ -60,7 +60,6 @@ const FeaturedArticles = ({ img, title, time, summary, price, link }) => {
     <li className="col-span-4 md:col-span-1 w-full p-4 bg-white dark:bg-accent border border-solid border-black dark:border-white rounded-2xl shadow-gray-400 dark:shadow-slate-600 shadow-lg">
       <Link
         href={link}
-        target="_blank"
         className="w-full inline-block cursor-pointer overflow-hidden rounded-lg"
       >
         <FramerImage
@@ -76,7 +75,7 @@ const FeaturedArticles = ({ img, title, time, summary, price, link }) => {
                     (max-width:1200px) 50vw, 33vw"
         />
       </Link>
-      <Link href={link} target="_blank">
+      <Link href={link}>
         <h2 className="capitalize text-2xl md:text-7xl font-bold text-black dark:text-white my-2 hover:underline">
           {" "}
           {title}
