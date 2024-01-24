@@ -43,38 +43,50 @@ const Footer = () => {
             </div>
 
             <div className="">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 flex justify-center text-lg font-bold uppercase md:justify-start">
                 Useful links
               </h6>
               <p className="mb-4">
-                <a href="#!" className="text-neutral-100 dark:text-neutral-900">
+                <a
+                  href="#!"
+                  className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
+                >
                   Pricing
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-neutral-100 dark:text-neutral-900">
+                <a
+                  href="#!"
+                  className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
+                >
                   Courses
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-neutral-100 dark:text-neutral-900">
+                <a
+                  href="#!"
+                  className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
+                >
                   e-learning
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-neutral-100 dark:text-neutral-900">
+                <a
+                  href="#!"
+                  className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
+                >
                   Help
                 </a>
               </p>
             </div>
             <div>
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 flex justify-center text-lg font-bold uppercase md:justify-start">
                 Contact
               </h6>
               <p
                 href={siteMetadata.location}
                 target="_blank"
-                className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start"
+                className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <IoLocation size={20} />
                 Along DAYA road, EMBU TOWN.
@@ -82,7 +94,7 @@ const Footer = () => {
               <p
                 href={siteMetadata.email}
                 target="_blank"
-                className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start"
+                className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <MdEmail size={20} />
                 contact@husseindrivingschool.com
@@ -90,14 +102,14 @@ const Footer = () => {
               <p
                 href={`tel:${siteMetadata.phone}`}
                 target="_blank"
-                className="mb-4 gap-3 cursor-pointer flex items-center justify-center md:justify-start"
+                className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <IoCall size={20} />+ 01 234 567 88
               </p>
               <p
                 href={siteMetadata.whatsapp}
                 target="_blank"
-                className="flex gap-3 cursor-pointer items-center justify-center md:justify-start"
+                className="flex gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 items-center justify-center md:justify-start"
               >
                 <IoLogoWhatsapp size={20} />+ 01 234 567 89
               </p>
