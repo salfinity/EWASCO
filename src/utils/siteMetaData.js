@@ -9,7 +9,7 @@ const siteMetadata = {
   theme: "system", // system, dark or light
   siteUrl: "https://create-blog-with-nextjs.vercel.app", // your website URL
   siteLogo: "/logo.png",
-  locatio:
+  location:
     "https://www.google.com/maps/d/u/0/edit?mid=1qCo5Ak-xnqp6DyyenyIhM1hpNU46CCw&usp=sharing",
   whatsapp: "https://wa.me/message/7Y2XG5R7QXQFJ1",
   phone: "+2547000000000",

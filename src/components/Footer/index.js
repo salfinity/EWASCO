@@ -48,7 +48,7 @@ const Footer = () => {
               </h6>
               <p className="mb-4">
                 <a
-                  href="#!"
+                  href="/classes"
                   className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
                 >
                   Pricing
@@ -56,7 +56,7 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <a
-                  href="#!"
+                  href="/classes"
                   className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
                 >
                   Courses
@@ -64,7 +64,7 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <a
-                  href="#!"
+                  href="/e-learning"
                   className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
                 >
                   e-learning
@@ -72,7 +72,7 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  href="#!"
+                  href="/help"
                   className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
                 >
                   Help
@@ -83,36 +83,36 @@ const Footer = () => {
               <h6 className="mb-4 flex justify-center text-lg font-bold uppercase md:justify-start">
                 Contact
               </h6>
-              <p
+              <a
                 href={siteMetadata.location}
                 target="_blank"
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <IoLocation size={20} />
                 Along DAYA road, EMBU TOWN.
-              </p>
-              <p
-                href={siteMetadata.email}
+              </a>
+              <a
+                href={`mailto:${siteMetadata.email}`}
                 target="_blank"
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <MdEmail size={20} />
                 contact@husseindrivingschool.com
-              </p>
-              <p
+              </a>
+              <a
                 href={`tel:${siteMetadata.phone}`}
                 target="_blank"
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
-                <IoCall size={20} />+ 01 234 567 88
-              </p>
-              <p
+                <IoCall size={20} />+ 2547 1 234 567 88
+              </a>
+              <a
                 href={siteMetadata.whatsapp}
                 target="_blank"
                 className="flex gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 items-center justify-center md:justify-start"
               >
-                <IoLogoWhatsapp size={20} />+ 01 234 567 89
-              </p>
+                <IoLogoWhatsapp size={20} />+ 2547 1 234 567 89
+              </a>
             </div>
           </div>
         </div>
