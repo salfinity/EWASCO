@@ -23,7 +23,7 @@ const VideoBackHomePage = () => {
         <h1 className="text-3xl my-3 italic md:text-6xl font-bold text-[#ff9900]">
           An investment in Safety
         </h1>
-        <p className="text-2xl font-bold">
+        <p className="text-lg md:text-2xl font-bold">
           HDS Reliable, highly experienced driving school with modern fleet of
           cars and qualified team of professional offering hard on practical and
           theory driving course customized to meet unique needs of every

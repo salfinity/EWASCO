@@ -13,7 +13,7 @@ const AboutCoverSection = () => {
           <Image
             src={profileCharacter}
             alt="CodeBucks"
-            className="w-4/5  xs:w-3/4 md:w-full h-full object-contain object-center"
+            className="w-4/5 xs:w-3/4 md:w-full h-full object-contain object-center"
             priority
             sizes="(max-width: 768px) 100vw,(max-width: 1180px) 50vw, 50vw"
           />
@@ -27,11 +27,7 @@ const AboutCoverSection = () => {
             The school was started in Embu town year 1996 by the founder the
             late Cllr Hussein swaleh as a professional and modern driving
             school. Currently under the management of Feisal Hussein swaleh. The
-            school has advance and expanded to other regions.The school was
-            started in Embu town year 1996 by the founder the late Cllr Hussein
-            swaleh as a professional and modern driving school. Currently under
-            the management of Feisal Hussein swaleh. The school has advance and
-            expanded to other regions.
+            school has advance and expanded to other regions.
           </p>
           <p className="font-medium capitalize mt-4 text-base">
             Hundreds of competent drivers have been molded by Hussein driving
