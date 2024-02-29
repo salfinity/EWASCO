@@ -15,7 +15,7 @@ const GoogleMap = () => {
           height="480"
         ></iframe>
       </div>
-      <div className="max-w-7xl">
+      <div className="max-w-7xl p-3">
         <p className="capitalize mt-4 items-center">
           <span className="font-bold text-red-600 text-2xl">
             Embu Town Head Office:-
@@ -32,7 +32,7 @@ const GoogleMap = () => {
         </p>
       </div>
 
-      <div className="max-w-7xl my-4">
+      <div className="max-w-7xl my-4 p-3">
         <p className="capitalize gap-4 mt-4 items-center">
           <span className="font-bold text-red-600 text-2xl">
             Ishiara Branch:-
@@ -49,7 +49,7 @@ const GoogleMap = () => {
         </p>
       </div>
 
-      <div className="max-w-7xl mt-4 mb-10">
+      <div className="max-w-7xl mt-4 mb-10 p-3">
         <p className="capitalize  gap-4 mt-4 items-center">
           <span className="font-bold text-red-600 text-2xl">
             Nairobi Branch:
