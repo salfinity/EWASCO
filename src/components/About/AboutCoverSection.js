@@ -20,9 +20,9 @@ const AboutCoverSection = () => {
         </div>
 
         <div className="w-full md:w-1/2 flex flex-col text-left items-start justify-center px-5 xs:p-10 pb-10 lg:px-16">
-          <h2 className="font-bold capitalize text-4xl xs:text-5xl sxl:text-6xl text-accent dark:text-accentDark  text-center lg:text-left">
+          {/*<h2 className="font-bold capitalize text-4xl xs:text-5xl sxl:text-6xl text-accent dark:text-accentDark  text-center lg:text-left">
             Over 25 Years, Countless Success Stories - Your Road to Mastery!
-          </h2>
+          </h2>*/}
           <p className="font-medium capitalize mt-4 text-base">
             The school was started in Embu town year 1996 by the founder the
             late Cllr Hussein swaleh as a professional and modern driving
