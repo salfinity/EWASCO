@@ -23,25 +23,25 @@ const AboutCoverSection = () => {
           {/*<h2 className="font-bold capitalize text-4xl xs:text-5xl sxl:text-6xl text-accent dark:text-accentDark  text-center lg:text-left">
             Over 25 Years, Countless Success Stories - Your Road to Mastery!
           </h2>*/}
-          <p className="font-medium capitalize mt-4 text-base">
+          <p className="font-medium  mt-4 text-base">
             The school was started in Embu town year 1996 by the founder the
             late Cllr Hussein swaleh as a professional and modern driving
             school. Currently under the management of Feisal Hussein swaleh. The
             school has advance and expanded to other regions.
           </p>
-          <p className="font-medium capitalize mt-4 text-base">
+          <p className="font-medium mt-4 text-base">
             Hundreds of competent drivers have been molded by Hussein driving
             school which has stood as a market leader in the driving school
             education.Hundreds of competent drivers have been molded by Hussein
             driving school which has stood as a market leader in the driving
             school education.
           </p>
-          <p className="font-medium capitalize mt-4 text-base">
+          <p className="font-medium mt-4 text-base">
             With a team of qualified and experienced instructors and staff.
             Hussein driving school is committed to providing comprehensive and
             professional driving courses.
           </p>
-          <p className="capitalize mt-4 items-center">
+          <p className=" mt-4 items-center">
             <span className="font-bold text-red-600 text-2xl">Vision:-</span>
             <span className="font-medium  text-base">
               With a team of qualified and experienced instructors and staff.
@@ -49,7 +49,7 @@ const AboutCoverSection = () => {
               professional driving courses.
             </span>
           </p>
-          <p className="capitalize mt-4 items-center">
+          <p className="mt-4 items-center">
             <span className="font-bold text-red-600 text-2xl">Mission:-</span>
             <span className="font-medium  text-base">
               To work together with all stakeholders on road safety and training
