@@ -2,8 +2,8 @@ import Packages from "@/src/components/About/Packages";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Us",
-  description: `Here are some details about our driving school.`,
+  title: "Our Classes",
+  description: `Here are some details about our driving school classes.`,
 };
 
 export default function Classes() {

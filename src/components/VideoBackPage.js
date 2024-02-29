@@ -24,8 +24,10 @@ const VideoBackHomePage = () => {
           An investment in Safety
         </h1>
         <p className="text-2xl font-bold">
-          We are the pioneer defensive driving school in Embu County, Offering
-          best services and unbeatable prices in Town.
+          HDS Reliable, highly experienced driving school with modern fleet of
+          cars and qualified team of professional offering hard on practical and
+          theory driving course customized to meet unique needs of every
+          student.
         </p>
       </div>
     </div>
