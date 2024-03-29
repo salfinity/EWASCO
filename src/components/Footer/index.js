@@ -180,7 +180,7 @@ const Footer = () => {
         <div className="text-center">
           Salfinity{" "}
           <a
-            href="https://devdreaming.com"
+            href="https://salfinity.vercel.app/"
             className="underline"
             target="_blank"
           >

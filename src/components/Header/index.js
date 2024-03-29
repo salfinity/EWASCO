@@ -157,13 +157,15 @@ const Header = () => {
             className="text-blue-600 hover:scale-125 transition-all ease duration-200"
           />
         </a>
-        <button
-          className="hidden md:inline ml-4 bg-red-900 
-      text-white px-3 lg:px-4 ly-2 lg:py-2 rounded-full
-       dark:bg-red-800 hover:scale-110 transition-all ease duration-200"
-        >
-          Register Now
-        </button>
+        <a href="https://hds-e-learning.vercel.app/" target="_blank">
+          <button
+            className="hidden md:inline ml-4 bg-red-900 
+               text-white px-3 lg:px-4 ly-2 lg:py-2 rounded-full
+               dark:bg-red-800 hover:scale-110 transition-all ease duration-200"
+          >
+            Register Now
+          </button>
+        </a>
       </div>
     </header>
   );

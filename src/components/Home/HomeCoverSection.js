@@ -11,9 +11,9 @@ const HomeCoverSection = ({ blogs }) => {
 
   return (
     <div className="w-full inline-block pt-6">
-      <h1 className="text-3xl md:text-5xl text-center uppercase mt-20 mb-8 text-red-900 dark:text-red-400">
-        Theory
-      </h1>
+      <h2 className="uppercase text-3xl tracking-[20px] text-center text-black dark:text-white mx-auto">
+        KNOWLEDGE
+      </h2>
       <h1 className="font-bold mb-5 text-2xl sm:text-3xl md:text-4xl text-cyan-950 dark:text-cyan-500 text-center">
         Cannot attend theory classes? Don’t panic- we’ve got you covered!
       </h1>
