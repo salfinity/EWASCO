@@ -104,7 +104,7 @@ const Header = () => {
       </nav>
 
       <nav
-        className=" w-max py-3 px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center hidden sm:flex
+        className="py-3 w-44 h-48 px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center hidden sm:flex
         fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm z-50"
       >
         <Link href="/" className="mr-2">
@@ -159,11 +159,11 @@ const Header = () => {
         </a>
         <a href="https://hds-e-learning.vercel.app/" target="_blank">
           <button
-            className="hidden md:inline ml-4 bg-red-900 
+            className="hidden md:inline ml-4 bg-purple-800 
                text-white px-3 lg:px-4 ly-2 lg:py-2 rounded-full
-               dark:bg-red-800 hover:scale-110 transition-all ease duration-200"
+               dark:bg-purple-700 hover:scale-110 transition-all ease duration-200"
           >
-            Register Now
+            Register e-learning
           </button>
         </a>
       </div>

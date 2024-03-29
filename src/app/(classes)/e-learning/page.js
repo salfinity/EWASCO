@@ -13,13 +13,17 @@ const PracticalClasses = () => {
         <div className="flex flex-col md:flex-row">
           <div className="flex-1 mb-4 md:mr-4">
             <p className="text-base md:text-xl px-4 md:px-8 text-zinc-700 dark:text-white">
-              Hello! At Hussein Driving School, our commitment is to enhance the
-              ease and enjoyment of learning how to drive. Exciting news – we've
-              teamed up with driveinkenya.com to offer comprehensive online
-              driving classes covering both practical and theoretical aspects.
-              Our online course features quizzes and notes after each video to
-              ensure a convenient and enriching learning experience. Join us as
-              we revolutionize the way you learn to drive!
+              Greetings! At Hussein Driving School, our mission is to make
+              learning to drive an enjoyable and seamless experience. We're
+              thrilled to introduce our comprehensive online driving courses,
+              which encompass not only the theoretical and practical aspects of
+              driving but also include essential mechanical knowledge, local and
+              foreign driving laws and rules, as well as extra driving hacks.
+              While quizzes are not conducted after every session, our platform
+              empowers you to monitor your progress effectively. Upon completing
+              the course, you'll receive a certificate of achievement. For
+              practical driving classes, testing will primarily occur at our
+              office. Join us as we revolutionize the way you learn to drive!
             </p>
           </div>
           <div className="flex-1">
@@ -39,22 +43,22 @@ const PracticalClasses = () => {
           </div>
         </div>
       </div>
-      <span className="font-semibold max-w-6xl mx-auto text-base sm:text-3xl md:text-4xl text-accent dark:text-accentDark">
+      <span className="font-semibold max-w-6xl mx-auto text-base sm:text-3xl md:text-4xl text-orange-800 dark:text-accentDark">
         For comprehensive driving classes, advanced mechanical skills training,
         and valuable tips, register on our e-learning platform below. This link
         also facilitates the issuance of certificates upon completion of these
-        courses....
+        courses....👇👇👇
       </span>{" "}
       <a href="https://hds-e-learning.vercel.app/" target="_blank">
         <button
-          className="md:inline ml-4 bg-red-900 mt-8
+          className="md:inline ml-4 bg-purple-800 mt-8
                text-white px-3 lg:px-4 ly-2 lg:py-2 rounded-full
-               dark:bg-red-800 hover:scale-110 transition-all ease duration-200"
+               dark:bg-purple-800 hover:scale-110 transition-all ease duration-200"
         >
           Register Now
         </button>
       </a>
-      <span className="font-semibold max-w-6xl mx-auto text-base sm:text-3xl md:text-4xl text-accent dark:text-accentDark">
+      <span className="font-semibold mt-6 max-w-6xl mx-auto text-base sm:text-3xl md:text-4xl text-orange-800 dark:text-accentDark">
         Below are samples of awarded certificates...
       </span>{" "}
     </>
