@@ -143,6 +143,14 @@ const Packages = () => {
               img={"/car.jpg"}
             />
             <FeaturedArticles
+              title="CLASS BC"
+              summary="Saloon & Light truck."
+              price="Ksh.17,000"
+              time="6 to 8 months"
+              link="/"
+              img={"/car.jpg"}
+            />
+            <FeaturedArticles
               title="CLASS B"
               summary="Saloon."
               price="Ksh.13,000"
