@@ -144,7 +144,7 @@ const Packages = () => {
               summary="Heavy Truck with Trailer (Arctic) - 28yrs."
               price="Ksh.30,000"
               time=" 5 to 7 months"
-              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
+              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20CE%20Heavy%20Truck%20Trailer.%20How%20can%20I%20go%20about%20that?"
               img={"/car.jpg"}
             />
             <FeaturedArticles
@@ -152,7 +152,7 @@ const Packages = () => {
               summary="Van/Bus"
               price="Ksh.17,000"
               time="6 to 8 months"
-              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
+              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20D.%20Van%20/%20Bus.%20How%20can%20I%20go%20about%20that?"
               img={"/car.jpg"}
             />
             <FeaturedArticles
@@ -160,7 +160,7 @@ const Packages = () => {
               summary="Lorry."
               price="Ksh.15,000"
               time="6 to 8 months"
-              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
+              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20C.%20Lorry.%20How%20can%20I%20go%20about%20that?"
               img={"/car.jpg"}
             />
             <FeaturedArticles
@@ -168,7 +168,7 @@ const Packages = () => {
               summary="Saloon & Light truck."
               price="Ksh.17,000"
               time="6 to 8 months"
-              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
+              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20BC.%20Saloon%20&%20Light%20Truck%20How%20can%20I%20go%20about%20that?"
               img={"/car.jpg"}
             />
             <FeaturedArticles
@@ -176,7 +176,7 @@ const Packages = () => {
               summary="Saloon."
               price="Ksh.13,000"
               time="6 to 8 months"
-              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
+              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20B.%20Saloon%20Car.%20How%20can%20I%20go%20about%20that?"
               img={"/cars/CAR OFFICIAL.png"}
             />
             <FeaturedArticles
@@ -184,7 +184,7 @@ const Packages = () => {
               summary="Motorbike."
               price="Ksh.6,500"
               time="6 to 8 months"
-              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
+              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20A.%20Motorcycle.%20How%20can%20I%20go%20about%20that?"
               img={"/car.jpg"}
             />
           </ul>
