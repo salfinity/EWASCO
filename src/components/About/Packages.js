@@ -27,12 +27,30 @@ const MovingImg = ({ title, img, link }) => {
       y.set(0);
     }
   }
+
+  const handleWhatsAppClick = () => {
+    // Phone number of the driving school on WhatsApp
+    const phoneNumber = "+254702802937"; // Replace with the actual phone number
+
+    // Message to be sent when opening WhatsApp
+    const message = encodeURIComponent(
+      "Hello hussein driving school, I would like to take this course. How can I go about that?"
+    );
+
+    // Generate the WhatsApp link
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
+
+    // Open WhatsApp in a new tab/window
+    window.open(whatsappLink, "_blank");
+  };
+
   return (
     <Link
       href={link}
       target="_blank"
       onMouseMove={handleMouse}
       onMouseLeave={handleMouseLeave}
+      onClick={handleWhatsAppClick}
     >
       <h2 className="capitalize text-xl font-semibold hover:underline">
         {title}
@@ -123,7 +141,7 @@ const Packages = () => {
               summary="Heavy Truck with Trailer (Arctic) - 28yrs."
               price="Ksh.30,000"
               time=" 5 to 7 months"
-              link="/"
+              link="whatsapp://send?phone=1234567890&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
               img={"/car.jpg"}
             />
             <FeaturedArticles
