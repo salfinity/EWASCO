@@ -141,7 +141,7 @@ const Packages = () => {
               summary="Heavy Truck with Trailer (Arctic) - 28yrs."
               price="Ksh.30,000"
               time=" 5 to 7 months"
-              link="whatsapp://send?phone=1234567890&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
+              link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20course.%20How%20can%20I%20go%20about%20that?"
               img={"/car.jpg"}
             />
             <FeaturedArticles
