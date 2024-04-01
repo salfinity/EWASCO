@@ -75,7 +75,7 @@ const MovingImg = ({ title, img, link }) => {
 
 const FeaturedArticles = ({ img, title, time, summary, price, link }) => {
   return (
-    <li className="col-span-4 md:col-span-1 w-full p-4 bg-white dark:bg-accent border border-solid border-black dark:border-white rounded-2xl shadow-gray-400 dark:shadow-slate-600 shadow-lg">
+    <li className="col-span-4 md:col-span-1 w-full p-4 bg-white dark:bg-zinc-600 border border-solid border-black dark:border-white rounded-2xl shadow-gray-400 dark:shadow-slate-600 shadow-lg">
       <Link
         href={link}
         className="w-full inline-block cursor-pointer overflow-hidden rounded-lg"
@@ -101,7 +101,7 @@ const FeaturedArticles = ({ img, title, time, summary, price, link }) => {
       </Link>
       <p className="text-xl mb-2 text-black dark:text-white">{summary}</p>
       <p className="text-xl mb-2 text-black dark:text-white">{price}</p>
-      <span className="text-pink-400 font-semibold">{time}</span>
+      <span className="text-orange-400  font-semibold">{time}</span>
     </li>
   );
 };
@@ -115,14 +115,14 @@ const AllArticles = ({ img, title, summary, price, date, link }) => {
         transition: { duration: 0.5, ease: "easeInOut" },
       }}
       viewport={{ once: true }}
-      className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center
-        justify-between bg-white dark:bg-accent text-lg md:text-xl  text-black dark:text-white first:mt-0 border border-solid border-black dark:border-white border-r-4 border-b-4
-        "
+      className="relative mx-4 max-w-full p-4 py-6 my-4 rounded-xl flex-col md:flex-row items-center md:mx-auto
+        justify-between bg-white dark:bg-zinc-600 text-sm md:text-xl  text-black dark:text-white  
+        border border-solid border-black dark:border-white border-r-4 border-b-4"
     >
       <MovingImg title={title} img={img} link={link} />
-      <span className="text-pink-400 font-semibold pl-4">{summary}</span>
-      <span className="text-pink-400 font-semibold pl-4">{price}</span>
-      <span className="text-pink-400 font-semibold pl-4">{date}</span>
+      <span className="text-orange-400 font-semibold pl-4">{summary}</span>
+      <span className="text-orange-400 font-semibold pl-4">{price}</span>
+      <span className="text-orange-400 font-semibold pl-4">{date}</span>
     </motion.li>
   );
 };
@@ -130,15 +130,15 @@ const AllArticles = ({ img, title, summary, price, date, link }) => {
 const Packages = () => {
   return (
     <>
-      <main className="mb-4 max-w-7xl mx-auto  flex flex-col items-center justify-center mt-2 md:mt-0 p-2 ">
-        <div className="pt-16">
-          <h2 className="font-bold text-teal-950 dark:text-teal-300 text-2xl md:text-4xl w-full text-center my-16 ">
+      <main className="mb-4 max-w-full mx-auto  flex flex-col items-center justify-center mt-2 md:mt-0 p-2 ">
+        <div className="pt-2">
+          <h2 className="font-bold text-teal-950 dark:text-teal-300 text-2xl md:text-4xl w-full text-center my-4">
             Featured Classes
           </h2>
-          <span className="font-semibold max-w-6xl mx-auto text-base sm:text-3xl md:text-4xl text-orange-800 dark:text-accentDark">
-            Click on any course below to chat with us about it...👇👇👇
+          <span className="font-semibold w-full my-4 text-base text-center md:text-2xl text-orange-800 dark:text-accentDark">
+            Click on any course below to chat with us about it.👇
           </span>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-16">
+          <ul className="grid max-w-6xl grid-cols-1 md:grid-cols-2 mt-4 md:mt-8 gap-16">
             <FeaturedArticles
               title="CLASS CE"
               summary="Heavy Truck with Trailer (Arctic) - 28yrs."
@@ -190,9 +190,9 @@ const Packages = () => {
           </ul>
         </div>
       </main>
-      <main className="mb-8  mx-auto min-h-screen flex flex-col items-center justify-center mt-2 md:mt-4">
+      <main className="mb-8 w-full max-w-6xl mx-auto flex flex-col items-center justify-center mt-2 md:mt-4">
         <div className="pt-2">
-          <h2 className="font-bold text-teal-950 dark:text-teal-300 text-2xl md:text-4xl w-full text-center my-16">
+          <h2 className="font-bold text-teal-950 dark:text-teal-300 text-2xl md:text-4xl text-center my-4">
             ALL CLASSES
           </h2>
           <AllArticles
