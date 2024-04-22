@@ -1,4 +1,4 @@
-import InsightRoll from "@/src/components/About/InsightRoll";
+import InsightRoll from "/src/components/About/InsightRoll";
 
 const insights = [
   "Over 2000 Certified Graduates 🚗",

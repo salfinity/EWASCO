@@ -1,4 +1,4 @@
-import Packages from "@/src/components/About/Packages";
+import Packages from "/src/components/About/Packages";
 import Link from "next/link";
 
 export const metadata = {
