@@ -2,7 +2,7 @@
 
 import React from "react";
 import Lottie from "lottie-react"; // Import the Lottie library
-import animationData from "/car-contact.json";
+import animationData from "/public/car-contact.json";
 
 const LottieAnimation = () => {
   return (
