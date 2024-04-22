@@ -8,10 +8,10 @@ import { IoLocation, IoCall } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
-import profileImg from "@/public/h-name-logo.png";
+import profileImg from "/public/h-name-logo.png";
 import Image from "next/image";
 import Link from "next/link";
-import siteMetadata from "@/src/utils/siteMetaData";
+import siteMetadata from "/src/utils/siteMetaData";
 
 const Footer = () => {
   const {

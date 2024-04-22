@@ -1,7 +1,7 @@
-import ContactForm from "@/src/components/Contact/ContactForm";
-import GoogleMap from "@/src/components/GoogleMap";
-import LottieAnimation from "@/src/components/Contact/LottieAnimation";
-import siteMetadata from "@/src/utils/siteMetaData";
+import ContactForm from "/src/components/Contact/ContactForm";
+import GoogleMap from "/src/components/GoogleMap";
+import LottieAnimation from "/src/components/Contact/LottieAnimation";
+import siteMetadata from "/src/utils/siteMetaData";
 
 export const metadata = {
   title: "Contact Me",

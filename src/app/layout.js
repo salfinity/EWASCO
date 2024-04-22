@@ -1,10 +1,14 @@
 import "./globals.css";
-import { cx } from "@/src/utils";
+import { cx } from "/src/utils";
 import { Inter, Manrope } from "next/font/google";
-import Header from "@/src/components/Header";
+import Header from "/src/components/Header";
 import Footer from "../components/Footer";
 import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
+
+import ClientOnly from "/src/components/ClientOnly";
+import LoginModal from "/src/components/modals/LoginModal";
+import RegisterModal from "/src/components/modals/RegisterModal";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -69,10 +73,14 @@ export default function RootLayout({ children }) {
   } else {
     document.documentElement.classList.remove('dark')
   }`}
-        </Script>
-        <Header />
-        {children}
-        <Footer />
+        </Script>{" "}
+        <ClientOnly>
+          <Header />
+          <LoginModal />
+          <RegisterModal />
+          {children}
+          <Footer />
+        </ClientOnly>
       </body>
     </html>
   );

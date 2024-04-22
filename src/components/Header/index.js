@@ -1,20 +1,14 @@
 "use client";
 import Link from "next/link";
 import Logo from "./Logo";
-import {
-  DribbbleIcon,
-  GithubIcon,
-  LinkedinIcon,
-  MoonIcon,
-  SunIcon,
-  TwitterIcon,
-} from "../Icons";
+import { MoonIcon, SunIcon } from "../Icons";
+import UserMenu from "./UserMenu";
 import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import siteMetadata from "@/src/utils/siteMetaData";
+import siteMetadata from "/src/utils/siteMetaData";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
 import { useState } from "react";
-import { cx } from "@/src/utils";
+import { cx } from "/src/utils";
 
 const Header = () => {
   const [mode, setMode] = useThemeSwitch();
@@ -157,15 +151,7 @@ const Header = () => {
             className="text-blue-600 hover:scale-125 transition-all ease duration-200"
           />
         </a>
-        <a href="https://hds-e-learning.vercel.app/" target="_blank">
-          <button
-            className="hidden md:inline ml-4 bg-purple-800 
-               text-white px-3 lg:px-4 ly-2 lg:py-2 rounded-full
-               dark:bg-purple-700 hover:scale-110 transition-all ease duration-200"
-          >
-            Register e-learning
-          </button>
-        </a>
+        <UserMenu />
       </div>
     </header>
   );
