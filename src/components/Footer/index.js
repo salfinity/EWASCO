@@ -89,7 +89,7 @@ const Footer = () => {
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <IoLocation size={20} />
-                Along DAYA road, EMBU TOWN.
+                Along Embu-Meru Highway, Opposite Riva Petroleum.
               </a>
               <a
                 href={`mailto:${siteMetadata.email}`}
@@ -104,14 +104,24 @@ const Footer = () => {
                 target="_blank"
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
-                <IoCall size={20} />+ 2547 1 234 567 88
+                <IoCall size={20} />
+                +254 792 920900
+              </a>
+              <a
+                href={`tel:${siteMetadata.phone}`}
+                target="_blank"
+                className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
+              >
+                <IoCall size={20} />
+                +254 799 919422
               </a>
               <a
                 href={siteMetadata.whatsapp}
                 target="_blank"
                 className="flex gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 items-center justify-center md:justify-start"
               >
-                <IoLogoWhatsapp size={20} />+ 2547 1 234 567 89
+                <IoLogoWhatsapp size={20} />
+                +254 750 422255
               </a>
             </div>
           </div>
