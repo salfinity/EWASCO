@@ -63,8 +63,8 @@ const PracticalClasses = () => {
         </span>
         <div className="flex justify-center mt-8">
           <button
-            className="md:inline  ml-4 bg-purple-800 
-               text-white px-3 lg:px-4 ly-2 lg:py-2 rounded-full
+            className="md:inline bg-purple-800 
+               text-white px-4 lg:px-4 py-3 lg:py-2 rounded-full
                dark:bg-purple-800 hover:scale-110 transition-all ease duration-200"
             onClick={handleRegistrationClick}
           >
