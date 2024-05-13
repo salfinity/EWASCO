@@ -15,10 +15,10 @@ const HomeCoverSection = ({ blogs }) => {
         KNOWLEDGE
       </h2>
       <h1 className="font-bold mb-5 text-2xl sm:text-3xl md:text-4xl text-cyan-950 dark:text-cyan-500 text-center">
-        Cannot attend theory classes? Don’t panic- we’ve got you covered!
+        Wanna be an upto date Driver? Get Tips, Latest News and Updates!
       </h1>
       <h2 className="font-bold mb-10 text-xl sm:text-2xl md:text-2xl text-cyan-950 dark:text-cyan-500 text-center">
-        GAIN SOME KNOWLEDGE, from our certified articles below
+        Be A Step Ahead Of Everyone, Through our amaizing articles below.
       </h2>
       <article className="flex flex-col items-start justify-end mx-5 sm:mx-10 relative h-[60vh] sm:h-[85vh]">
         <div

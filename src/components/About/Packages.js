@@ -145,7 +145,7 @@ const Packages = () => {
               price="Ksh.30,000"
               time=" 5 to 7 months"
               link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20CE%20Heavy%20Truck%20Trailer.%20How%20can%20I%20go%20about%20that?"
-              img={"/car.jpg"}
+              img={"/cars/trailer.png"}
             />
             <FeaturedArticles
               title="CLASS D"
@@ -153,7 +153,7 @@ const Packages = () => {
               price="Ksh.17,000"
               time="6 to 8 months"
               link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20D.%20Van%20/%20Bus.%20How%20can%20I%20go%20about%20that?"
-              img={"/car.jpg"}
+              img={"/cars/bus.png"}
             />
             <FeaturedArticles
               title="CLASS C"
@@ -161,7 +161,7 @@ const Packages = () => {
               price="Ksh.15,000"
               time="6 to 8 months"
               link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20C.%20Lorry.%20How%20can%20I%20go%20about%20that?"
-              img={"/car.jpg"}
+              img={"/cars/lorry.png"}
             />
             <FeaturedArticles
               title="CLASS BC"
@@ -169,7 +169,7 @@ const Packages = () => {
               price="Ksh.17,000"
               time="6 to 8 months"
               link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20BC.%20Saloon%20&%20Light%20Truck%20How%20can%20I%20go%20about%20that?"
-              img={"/car.jpg"}
+              img={"/cars/saloonandlorry.png"}
             />
             <FeaturedArticles
               title="CLASS B"
@@ -185,7 +185,7 @@ const Packages = () => {
               price="Ksh.6,500"
               time="6 to 8 months"
               link="whatsapp://send?phone=+254702802937&text=Hello%20hussein%20driving%20school,%20I%20would%20like%20to%20take%20this%20Class%20A.%20Motorcycle.%20How%20can%20I%20go%20about%20that?"
-              img={"/car.jpg"}
+              img={"/cars/bodaboda.png"}
             />
           </ul>
         </div>
