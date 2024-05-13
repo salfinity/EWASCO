@@ -1,6 +1,17 @@
+"use client";
+
 import React from "react";
 
 const PracticalClasses = () => {
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, "_blank");
+    if (newWindow) newWindow.opener = null;
+  };
+
+  const handleRegistrationClick = () => {
+    openInNewTab("https://hds-e-learning.vercel.app/");
+  };
+
   return (
     <>
       <div className="w-full max-w-7xl h-screen mx-auto p-8 md:px-0">
@@ -43,24 +54,27 @@ const PracticalClasses = () => {
           </div>
         </div>
       </div>
-      <span className="font-semibold max-w-6xl mx-auto text-base sm:text-3xl md:text-4xl text-orange-800 dark:text-accentDark">
-        For comprehensive driving classes, advanced mechanical skills training,
-        and valuable tips, register on our e-learning platform below. This link
-        also facilitates the issuance of certificates upon completion of these
-        courses....👇👇👇
-      </span>{" "}
-      <a href="https://hds-e-learning.vercel.app/" target="_blank">
-        <button
-          className="md:inline ml-4 bg-purple-800 mt-8
+      <div className="mx-auto text-center w-full max-w-6xl mt-10 flex-col items-center">
+        <span className="font-semibold max-w-6xl mx-auto text-base md:text-xl text-orange-800 dark:text-accentDark">
+          For comprehensive driving classes, advanced mechanical skills
+          training, and valuable tips, register on our e-learning platform
+          below. This link also facilitates the issuance of certificates upon
+          completion of these courses👇👇👇
+        </span>
+        <div className="flex justify-center mt-8">
+          <button
+            className="md:inline  ml-4 bg-purple-800 
                text-white px-3 lg:px-4 ly-2 lg:py-2 rounded-full
                dark:bg-purple-800 hover:scale-110 transition-all ease duration-200"
-        >
-          Register Now
-        </button>
-      </a>
-      <span className="font-semibold mt-6 max-w-6xl mx-auto text-base sm:text-3xl md:text-4xl text-orange-800 dark:text-accentDark">
-        Below are samples of awarded certificates...
-      </span>{" "}
+            onClick={handleRegistrationClick}
+          >
+            Register Now
+          </button>
+        </div>
+        <span className="font-semibold flex mt-6 max-w-6xl mx-auto text-base justify-center md:text-xl text-orange-800 dark:text-accentDark">
+          Below are samples of awarded certificates...
+        </span>
+      </div>
     </>
   );
 };
