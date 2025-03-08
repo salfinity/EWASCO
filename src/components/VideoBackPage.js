@@ -6,7 +6,7 @@ const VideoBackHomePage = () => {
     <div className="relative w-full h-screen">
       <video
         className="object-cover w-full h-full"
-        src="/trafficcars.mp4"
+        src="/water.mp4"
         autoPlay
         loop
         muted
@@ -21,13 +21,14 @@ const VideoBackHomePage = () => {
           priority
         />
         <h1 className="text-3xl my-3 italic md:text-6xl font-bold text-[#ff9900]">
-          An investment in Safety
+          Water is life
         </h1>
         <p className="text-lg md:text-2xl font-bold">
-          HDS Reliable, highly experienced driving school with modern fleet of
-          cars and qualified team of professional offering hard on practical and
-          theory driving course customized to meet unique needs of every
-          student.
+          At EWASCO, we are a trusted and experienced provider of clean, safe,
+          and reliable water services. With a dedicated team of professionals
+          and modern infrastructure, we ensure uninterrupted supply, efficient
+          management, and sustainable solutions tailored to meet the needs of
+          every community.
         </p>
       </div>
     </div>

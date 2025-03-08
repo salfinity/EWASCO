@@ -1,14 +1,14 @@
 // please update required information
 const siteMetadata = {
-  title: "Husein Driving School",
-  author: "Husein Driving School",
-  headerTitle: "the pioneer of driving school in Embu Town",
+  title: "Embu water and sanitaion company",
+  author: "Embu water and sanitaion company",
+  headerTitle: "the pioneer of water and sanitation services in Embu Town",
   description:
-    "We are the pioneers of driving school in Embu with best prices in town.",
+    "Our mandate is to provide water and sanitation services within Embu county.",
   language: "en-us",
   theme: "system", // system, dark or light
   siteUrl: "https://create-blog-with-nextjs.vercel.app", // your website URL
-  siteLogo: "/h-logo.png",
+  siteLogo: "/EWASCO LOGO.png",
   location:
     "https://www.google.com/maps/d/u/0/edit?mid=1qCo5Ak-xnqp6DyyenyIhM1hpNU46CCw&usp=sharing",
   whatsapp: "https://wa.me/message/+254750422255",

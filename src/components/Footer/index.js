@@ -37,8 +37,8 @@ const Footer = () => {
                 />
               </h6>
               <p className="text-center">
-                We are the pioneer defensive driving school in Embu County,
-                Offering best services and unbeatable prices in Town.
+                Our mandate is to provide water and sanitation services within
+                Embu county.
               </p>
             </div>
 
@@ -48,31 +48,47 @@ const Footer = () => {
               </h6>
               <p className="mb-4">
                 <a
-                  href="/classes"
+                  href="/"
                   className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
                 >
-                  Pricing
+                  Maji Voice
                 </a>
               </p>
               <p className="mb-4">
                 <a
-                  href="/classes"
+                  href="/"
                   className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
                 >
-                  Courses
+                  Wasreb
                 </a>
               </p>
               <p className="mb-4">
                 <a
-                  href="/e-learning"
+                  href="/"
                   className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
                 >
-                  e-learning
+                  Embu County Government
+                </a>
+              </p>
+              <p className="mb-4">
+                <a
+                  href="/"
+                  className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
+                >
+                  WRA
+                </a>
+              </p>
+              <p className="mb-4">
+                <a
+                  href="/"
+                  className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
+                >
+                  Water Fund
                 </a>
               </p>
               <p>
                 <a
-                  href="/help"
+                  href="/"
                   className="text-neutral-100 hover:text-teal-300 dark:hover:text-teal-700 dark:text-neutral-900"
                 >
                   Help
@@ -81,7 +97,7 @@ const Footer = () => {
             </div>
             <div>
               <h6 className="mb-4 flex justify-center text-lg font-bold uppercase md:justify-start">
-                Contact
+                Contacts
               </h6>
               <a
                 href={siteMetadata.location}
@@ -89,7 +105,8 @@ const Footer = () => {
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <IoLocation size={20} />
-                Along Embu-Meru Highway, Opposite Riva Petroleum.
+                Motero Road off Embu-Meru Highway, Next to Embu Library,
+                Opposite Kindaruma buyilding.
               </a>
               <a
                 href={`mailto:${siteMetadata.email}`}
@@ -97,7 +114,7 @@ const Footer = () => {
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <MdEmail size={20} />
-                contact@husseindrivingschool.com
+                contact@ewasco.com
               </a>
               <a
                 href={`tel:${siteMetadata.phone}`}
@@ -105,7 +122,7 @@ const Footer = () => {
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <IoCall size={20} />
-                +254 792 920900
+                +254 791 610239
               </a>
               <a
                 href={`tel:${siteMetadata.phone}`}
@@ -113,7 +130,7 @@ const Footer = () => {
                 className="mb-4 gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 flex items-center justify-center md:justify-start"
               >
                 <IoCall size={20} />
-                +254 799 919422
+                +254 791 610239
               </a>
               <a
                 href={siteMetadata.whatsapp}
@@ -121,7 +138,7 @@ const Footer = () => {
                 className="flex gap-3 cursor-pointer hover:text-teal-300 dark:hover:text-teal-700 items-center justify-center md:justify-start"
               >
                 <IoLogoWhatsapp size={20} />
-                +254 750 422255
+                +254 791 610239
               </a>
             </div>
           </div>
@@ -129,10 +146,10 @@ const Footer = () => {
       </div>
 
       <h3 className="mt-16 font-medium dark:font-bold text-center capitalize text-2xl sm:text-3xl lg:text-4xl px-4">
-        Driving lessons | Laws of driving | Certifications
+        Water Supply | Water Conservation | Quality Assurance
       </h3>
       <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
-        Subscribe on our website. Join over 1000+ members community to stay up
+        Subscribe on our website. Join over 80,000+ members community to stay up
         to let us know you were here.
       </p>
 
@@ -179,7 +196,7 @@ const Footer = () => {
 
       <div className="w-full  mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">
-          &copy;2023 Hussein driving school. All rights reserved.
+          &copy;2023 Embu water and sanitaion company. All rights reserved.
         </span>
         <Link
           href="/sitemap.xml"

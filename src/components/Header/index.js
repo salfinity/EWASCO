@@ -7,6 +7,7 @@ import UserMenu from "./UserMenu";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import siteMetadata from "/src/utils/siteMetaData";
+import WaterServicesDropdown from "./WaterServicesDropdown";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
 import { useState } from "react";
 import { cx } from "/src/utils";
@@ -93,15 +94,18 @@ const Header = () => {
           <Link href="/" className="mb-2">
             Home
           </Link>
-          <Link href="/classes" className="my-2">
-            Classes
+          <Link href="/about" className="my-2">
+            About
           </Link>
-          <Link href="/e-learning" className="my-2">
-            E-learning
+          <Link href="/resources" className="my-2">
+            Resources
           </Link>
           <Link href="/contact" className="my-2">
             Contact
           </Link>
+          <span className="my-2">
+            <WaterServicesDropdown />
+          </span>
         </div>
         <div className="flex my-4 gap-4 items-center justify-center">
           <a
@@ -136,15 +140,18 @@ const Header = () => {
         <Link href="/" className="mr-2">
           Home
         </Link>
-        <Link href="/classes" className="mx-2">
-          Classes
+        <Link href="/about" className="mx-2">
+          About
         </Link>
-        <Link href="/e-learning" className="mx-2">
-          E-learning
+        <Link href="/resources" className="mx-2">
+          Resources
         </Link>
         <Link href="/contact" className="mx-2">
           Contact
         </Link>
+        <span className="my-2">
+          <WaterServicesDropdown />
+        </span>
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className={cx(

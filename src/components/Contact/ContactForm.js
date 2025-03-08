@@ -25,9 +25,9 @@ export default function ContactForm() {
         className="outline-none border-0 p-0 mx-2 focus:ring-0 placeholder:text-center placeholder:text-lg border-b border-gray 
         focus:border-gray bg-transparent"
       />
-      and I'm eager to inquire about enrolling in your driving school. If you
-      could provide information regarding classes and the application process,
-      I'd greatly appreciate it. You can contact me via email at
+      and I'm eager to inquire about water connection services. If you could
+      provide information regarding charges and the application process, I'd
+      greatly appreciate it. You can contact me via email at
       <input
         type="email"
         placeholder="your@email"

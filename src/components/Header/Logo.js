@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import profileImg from "/public/h-Logo.png";
+import profileImg from "/public/EWASCO LOGO.png";
 
 const Logo = () => {
   return (
@@ -15,7 +15,7 @@ const Logo = () => {
         />
       </div>
       <span className="font-bold dark:font-semibold text-lg md:text-xl">
-        HusseinDS
+        EWASCO
       </span>
     </Link>
   );

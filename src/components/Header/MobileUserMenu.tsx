@@ -57,7 +57,7 @@ const MobileUserMenu: React.FC<MobileUserMenuProps> = ({ currentUser }) => {
             cursor-pointer
           "
         >
-          My Classes
+          My Water acc.
         </div>
         <div
           onClick={toggleOpen}

@@ -58,7 +58,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
             cursor-pointer
           "
         >
-          Register your class
+          Register for water
         </div>
         <div
           onClick={toggleOpen}

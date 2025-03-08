@@ -12,13 +12,7 @@ const HomeCoverSection = ({ blogs }) => {
   return (
     <div className="w-full inline-block pt-6">
       <h2 className="uppercase text-3xl tracking-[20px] text-center text-black dark:text-white mx-auto">
-        KNOWLEDGE
-      </h2>
-      <h1 className="font-bold mb-5 text-2xl sm:text-3xl md:text-4xl text-cyan-950 dark:text-cyan-500 text-center">
-        Wanna be an upto date Driver? Get Tips, Latest News and Updates!
-      </h1>
-      <h2 className="font-bold mb-10 text-xl sm:text-2xl md:text-2xl text-cyan-950 dark:text-cyan-500 text-center">
-        Be A Step Ahead Of Everyone, Through our amaizing articles below.
+        Our Blog posts
       </h2>
       <article className="flex flex-col items-start justify-end mx-5 sm:mx-10 relative h-[60vh] sm:h-[85vh]">
         <div

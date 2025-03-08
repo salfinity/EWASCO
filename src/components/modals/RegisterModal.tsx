@@ -59,7 +59,7 @@ const RegisterModal = () => {
   const bodyContent = (
     <div className="flex flex-col gap-4">
       <Heading
-        title="Welcome to Hussein Driving School"
+        title="Welcome to Embu water and sanitation company"
         subtitle="Create an account!"
       />
       <Input
